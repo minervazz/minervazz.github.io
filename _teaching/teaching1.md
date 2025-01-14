@@ -4,11 +4,11 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/teaching1
 venue: "USTC"
-date: 2024-2025
-location: "City, Country"
+date: 2024-10-01
+location: "Hefei, China"
 ---
 
-这是我所担任的助教课。
+a course on ...
 
 Heading 1
 ======
