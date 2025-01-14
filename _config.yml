@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Minerva's Homepage"
 title_separator          : "-"
-name                     : &name "Zhiran Minerva Zhang"
+name                     : &name "Zhiran (Minerva) Zhang"
 description              : &description "personal description"
 url                      : https://minervazz.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,9 +22,9 @@ repository               : "minervazz/minervazz.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zhiran Minerva Zhang"
+  name             : "Minerva Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science class of 2025 @ University of Science and Technology of China"
+  bio              : "Computer Science Class of 25 @ University of Science and Technology of China"
   location         : "Hefei, China"
   employer         : "USTC"
   uri              : # URL # update with your personal website
@@ -293,7 +293,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "UTC" #Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
