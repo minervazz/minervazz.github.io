@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for project in site.projects reversed %}
+<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+<p>{{ project.excerpt }}</p>
+{% endfor %}
+
+
