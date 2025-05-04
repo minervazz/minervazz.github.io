@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: Zhiran(Minerva) Zhang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Shiung Wu
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: BS CS 25'
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: USTC
     url: https://openai.com/
 
 # Social network links
