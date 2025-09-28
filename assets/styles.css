@@ -46,6 +46,21 @@ a:hover { text-decoration: underline; }
 
 .content { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
 .content h2 { margin-top: 0; }
+.pdf-container { margin: 20px 0; }
+.download-link { 
+  display: inline-block; 
+  padding: 12px 24px; 
+  background: var(--primary); 
+  color: white; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.download-link:hover { 
+  background: #4a7cff; 
+  text-decoration: none; 
+}
 
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); }
 .site-footer p { max-width: 960px; margin: 0 auto; padding: 18px 20px; }
