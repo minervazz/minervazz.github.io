@@ -44,6 +44,10 @@ education:
 #     Department of Electrical Engineering and Computer Science <br/>
 #     Ph.D. Student
 #   date: Sep. 2024 - present
+name: Mohamed bin Zayed University of Artificial Intelligence
+  logo: /assets/images/badges/mbzlogo.png
+  position: M.Sc. in Computer Vision
+  date: Aug. 2026 - present
 - name: University of Science and Technology of China
   logo: /assets/images/badges/ustclogo.png
   position: B.E. in Computer Science
