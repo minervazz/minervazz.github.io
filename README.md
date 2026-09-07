@@ -64,21 +64,26 @@ If you run into **any** issues while using this template, or have suggestions fo
 
 ### Running Locally (Debug & Preview)
 
-2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
+Use the Ruby version in `.ruby-version` and the Bundler version recorded in
+`Gemfile.lock`. In the repository directory, run:
 
-3. Clone your forked repository to your local machine.
+```bash
+bundle install
+bundle exec jekyll serve --livereload
+```
 
-4. Run the following command in the root directory of the repository:
-
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-5. Browse to the displayed URL to see the website.
+Open <http://127.0.0.1:4000/>. Saving a source file rebuilds the site and refreshes
+its browser preview. Restart the server after changing `_config.yml`.
 
 ### Deploying to GitHub Pages
 
-2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+The [homepage workflow](.github/workflows/pages.yml) builds and deploys each push
+to `main`. In repository Settings → Pages, select **GitHub Actions** as the source.
+The workflow can also be started manually from the Actions tab.
 
-3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
+Local development and GitHub Actions use `.ruby-version` and the committed
+`Gemfile.lock`. CI installs locked dependencies and runs Jekyll directly. When
+intentionally updating dependencies, commit the updated lockfile after checking
+the local preview.
 
+After a successful deployment, view <https://minervazz.github.io/>.
