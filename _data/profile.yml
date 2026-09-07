@@ -11,7 +11,7 @@ positions:
 #   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
-email: "minervazhang1117@gmail.com"
+email: "zhiran.zhang@mbzuai.ac.ae"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: minervazz
@@ -25,11 +25,14 @@ orcid: 0009-0003-7687-0256
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a current research intern and incoming MSc Computer Vision student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), advised by Prof. Yutong Xie. 
+    I am a MSc Computer Vision student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), advised by Prof. Yutong Xie. 
     Before that, I graduated from the University of Science and Technology of China (USTC) with a B.E. in Computer Science. 
   </p>
   <p>
     My research interests include computer vision, multimodal language models, and multimodal agents, especially in the context of AI for healthcare.
+    Right Now, I am working on surgical video understanding.
+  </p>
+  <p>
     I’m actively looking for collaboration and PhD opportunities, please feel free to drop me an email if interested.
   </p>
 
@@ -57,7 +60,7 @@ experience:
 - name: Mohamed bin Zayed University of Artificial Intelligence
   logo: /assets/images/badges/mbzlogo.png
   position: Research Intern
-  date: Nov. 2025 - Now
+  date: Nov. 2025 - Aug. 2026
 - name: Stony Brook University
   logo: /assets/images/badges/sbulogo.png
   position: Research Intern
